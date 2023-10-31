@@ -44,7 +44,7 @@ padding-bottom: 120px;
 .main-nav{
 display: flex;
 align-items: center;
-margin-right: 332px;
+margin-right: 310px;
 }
 .menu{
 display: flex;
@@ -56,7 +56,7 @@ gap: 40px;
     }
 .logotype{
 margin-left: 15px;
-margin-right: 76px;
+margin-right: 70px;
 }
 body {
 font-family: Roboto, sans-serif;
@@ -113,30 +113,39 @@ color: var(--SLATE, #434455);
 color: #404BBF;
 }
 
-header {
-background: var(--WHITE, #FFFFFF);
+.menu-item{
 padding-top: 24px;
 padding-bottom: 24px;
+}
+
+.address-items{
+padding-top: 24px;
+padding-bottom: 24px;
+}
+header {
+background: var(--WHITE, #FFFFFF);
+border-bottom: 1px solid #e7e9fc;
 }
 
 .address{
 font-style: normal;
 }
 
-.main-section {
+.main-section{
 width: 1128px;
 height: 603px;
-padding: 195px 316px 293px 318px;
+padding: 188px 0;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
+margin: 0 auto;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .name-main-section {
 display: inline-block;
 border: 1px solid #2E2F42;
-width: 499px;
+max-width: 494px;
 height: 115px;
 text-align: left;
 flex-shrink: 0;
@@ -154,15 +163,18 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.64px;
 color: var(--WHITE, #FFFFFF);
-display: inline-flex;
+display: block;
+min-width: 169px;
+height: 56px;
 padding: 16px 32px;
 align-items: flex-start;
 margin-left: auto;
 margin-right: auto;
 margin-top: 49px;
+border: none;
 border-radius: 4px;
 gap: 10px;
-background: #4D5AE5;
+background-color: #4D5AE5;
 cursor: pointer;
 }
 
@@ -191,13 +203,12 @@ overflow: hidden;
 
 .benefits-list{
 display: flex;
-flex-direction: column;
-box-sizing: border-box;
-width: 264px;
-align-items: flex-start;
 row-gap: 24px;
 }
 
+.benefits-list-item{
+width: calc((100% - 72px) / 4);
+}
 .section-our-benefits {
 background: #FFFFFF;
 }
@@ -209,6 +220,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -232,20 +244,25 @@ background: var(--CLOUD, #F4F4FD);
 
 .spesialist{
 text-align: center;
-gap: 8px;
+gap: 24px;
 background: var(--WHITE, #FFF);
 }
 
 .our-team {
+display: block;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 color: var(--NAVY-BLUE, #2E2F42);
 }
-
+.our-team-list{
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
 .names {
 font-family: Roboto;
 font-size: 20px;
@@ -253,8 +270,9 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 padding-top: 32px;
-gap: 8px;
+margin-bottom: 8px;
 color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -265,10 +283,13 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 padding-bottom: 32px;
 color: var(--SLATE, #434455);
 }
-
+.names-profession{
+padding: 32px 0;
+}
 .our-portfolio-item{
 display: flex;
 flex-wrap: wrap;
@@ -279,6 +300,7 @@ background: #FFFFFF;
 }
 
 .portfolio-place{
+width: calc((100% - 48px) / 3);
 background: var(--WHITE, #FFFFFF);
 }
 .our-portfolio {
@@ -290,9 +312,13 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 color: var(--NAVY-BLUE, #2E2F42);
 }
 
+.our-portfolio-item{
+row-gap: 48px;
+}
 .portfolio-items {
 font-family: Roboto, sans-serif;
 font-size: 20px;
@@ -315,10 +341,14 @@ letter-spacing: 0.02em;
 margin-bottom: 32px;
 color: var(--SLATE, #434455);
 }
-
+.portfolio-items-spesiec{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+}
 .section-footer {
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 100px 0;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -337,6 +367,7 @@ color: var(--CLOUD, #F4F4FD);
 }
 
 .logotype-footer {
+display: inline-block;
 font-family: Raleway, sans-serif; 
 font-size: 18px;
 font-style: normal;
@@ -344,6 +375,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 16px;
 color: var(--IRIS, #4D5AE5);
 }
 
