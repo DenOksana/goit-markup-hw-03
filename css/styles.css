@@ -130,10 +130,6 @@ align-items: center;
 display: flex;
 gap: 40px;
 }
-.contact{
-display: flex;
-gap: 40px;
-}
 
 .main-section{
 max-width: 1440px;
