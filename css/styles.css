@@ -35,8 +35,8 @@ padding-right: 15px;
 }
 
 section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 header {
@@ -121,7 +121,7 @@ font-style: normal;
 }
 
 .address-items{
-display: flex;
+display: block;
 padding-top: 24px;
 padding-bottom: 24px;
 gap: 40px;
@@ -243,6 +243,7 @@ background: var(--CLOUD, #F4F4FD);
 .spesialist{
 text-align: center;
 gap: 24px;
+border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 }
 
@@ -259,7 +260,6 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .our-team-list{
 display: flex;
-border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 gap: 24px;
