@@ -146,7 +146,7 @@ background: var(--NAVY-BLUE, #2E2F42);
 .name-main-section {
 display: inline-block;
 border: 1px solid #2E2F42;
-width: 494px;
+max-width: 496px;
 height: 115px;
 text-align: left;
 flex-shrink: 0;
@@ -259,10 +259,9 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .our-team-list{
 display: flex;
-border-top-left-radius: 0px;
-border-top-right-radius: 0px;
-border-top-right-radius: 4px;
-border-bottom-left-radius: 4px;
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 gap: 24px;
 }
 .names {
@@ -327,6 +326,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 gap: 16px;
 color: var(--NAVY-BLUE, #2E2F42);
 }
