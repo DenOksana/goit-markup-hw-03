@@ -124,11 +124,12 @@ color: #404BBF;
 .address{
 font-style: normal;
 align-items: center;
+display: flex;
 }
 
 .address-items{
-display: flex;
 gap: 40px;
+display: flex;
 }
 
 .main-section{
