@@ -1,3 +1,10 @@
+body{
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+
 h1,
 h2,
 h3,
@@ -43,10 +50,7 @@ header {
 background: var(--WHITE, #FFFFFF);
 border-bottom: 1px solid #e7e9fc;
 }
-.page-header{
-padding-top: 24px;
-padding-bottom: 24px;
-}
+
 .header-container{
 display: flex;
 justify-content: space-between;
@@ -95,10 +99,6 @@ display: block;
 color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.menu{
-padding-top: 24px;
-padding-bottom: 24px;
-}
 .menu-link:hover,
 .menu-link:focus {
 color: #404bbf;
@@ -130,8 +130,6 @@ display: flex;
 .address-items{
 gap: 40px;
 display: flex;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 
 .main-section{
@@ -151,9 +149,7 @@ background: var(--NAVY-BLUE, #2E2F42);
 
 .name-main-section {
 display: inline-block;
-border: 1px solid #2E2F42;
 max-width: 496px;
-height: 115px;
 text-align: left;
 flex-shrink: 0;
 font-size: 56px;
@@ -266,9 +262,11 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .our-team-list{
 display: flex;
-background: var(--WHITE, #FFF);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 gap: 24px;
+}
+.spesialist{
+background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .names {
 font-family: Roboto;
